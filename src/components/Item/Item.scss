@@ -1,0 +1,55 @@
+.item {
+  overflow: hidden;
+  width: 438px;
+  height: 336px;
+  display: flex;
+  justify-content: start;
+  background-color: rgb(171, 189, 183);
+  border-radius: 8px;
+  text-align: left;
+  color: #353844;
+  background-color: #FFFFFF;
+
+  &__images-container {
+    width: 184px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  &__image{
+    height: auto;
+    overflow: hidden;
+    flex: 1;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+  &__description-container {
+    max-width: 254px;
+    padding: 40px 30px 34px 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-size: 15px;
+    line-height: 24px;
+    gap: 10px;
+  }
+
+  &__title {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 800;
+  }
+
+  &__details-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-weight: 700;
+
+    li::marker {
+      color: #D2AD81;
+    }
+  }
+}

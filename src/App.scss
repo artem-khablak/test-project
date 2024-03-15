@@ -1,0 +1,36 @@
+#root {
+  font-family: "Nunito", sans-serif;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app {
+  max-width: 1540px;
+  margin: 0 auto;
+  padding: 90px 0;
+  background-color: green;
+  background-color: #F5F5F8;
+
+  &__title {
+    font-weight: 800;
+    margin: 0 auto 70px;
+    max-width: 730px;
+    font-size: 56px;
+    line-height: 55px;
+    color: #1B264F;
+  }
+}
+
+.media {
+  max-width: 1370px;
+  margin: 0 auto 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 28px;
+  row-gap: 45px;
+  align-self: center;
+}
+
